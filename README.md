@@ -1,2 +1,2 @@
 # Ejercicios_Python
-bruh 1
+ASDQWE
