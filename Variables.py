@@ -1,6 +1,6 @@
 # Erick Chiguano 
 #10/04/2026 
-#Ejericios: Nivel 1 
+#Ejericios: Nivel 1
 nombre, apellido, nombreCompleto, pais, ciudad, edad, año, esta_casado, es_verdadero, luz_encendida = "Erick", "Chiguano", "Erick Chiguano", "Ecuador", "Quito", 16, 2026, False, True, False 
 print(type(nombre)) 
 print(type(apellido)) 
@@ -11,7 +11,7 @@ print(type(edad))
 print(type(año)) 
 print(type(esta_casado)) 
 print(type(es_verdadero)) 
-print(type(luz_encendida)) 
+print(type(luz_encendida))
 #Ejercicios Nivel 2 
 print("Longitud de caracteres:", len(nombre)) 
 print("Longitud de caracteres:", len(apellido)) 
@@ -39,3 +39,4 @@ apellido_user = input("Apellido: ")
 pais_user = input("País: ") 
 edad_user = input("Edad: ")  
 help('keywords') 
+
