@@ -51,4 +51,28 @@
 #print(len(texto))
 #print('python' in texto)
 #print(texto.replace('Tecnología', 'Programación'))
+#Parte C. Problema integrador (40 puntos)
+#Una tienda desea generar un resumen de presupuesto para cubrir una pared rectangular con papel decorativo.
+# 5. Desarrolla un programa (40 puntos)
+# 1. Solicite al usuario: Nombre, apellido, país, ancho de la pared, alto de la pared, precio por metro cuadrado 
+# Calcule: área de la pared, costo total estimado
+# 2. Cree la variable nombre_completo.
+# 1. Muestre un reporte final que incluya:
+# nombre completo, país, área calculada, costo total (La impresión del reporte final debe
+#realizarse usando f-strings.)
+#3. Muestre además:
+#nombre_completo en mayúsculas
+#la longitud de nombre_completo
+#si la letra "a" está presente en nombre_completo
+#si el costo total es mayor que 100
+nombre, apellido, país, ancho, alto, precio = input('Nombre: '), input('Apellido: '), input('Pais: '), float(input('Ancho de la pared: ')), float(input('Alto de la pared: ')), float(input('Precio por metro cuadrado: '))
+area=ancho*alto
+costo=area*precio
+print(f'Nombre completo: {nombre+apellido}\n Pais: {país}\n Area de la pared: {area}\n Costo Total: {costo}')
+nombre_completo=nombre+apellido
+print(nombre_completo.upper())
+print(len(nombre_completo))
+print("a" in nombre_completo)
+print(costo>100)
+
 
