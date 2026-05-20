@@ -1,0 +1,25 @@
+'''
+suma=0
+notas=int(input('Ingrese la cantidad de notas: '))
+while notas < 0:
+    print('Numero invalido')
+    notas=int(input('Ingrese la cantidad de notas: '))
+    if notas > 2:
+        break
+for x in range (notas):
+    nota=float(input(f'Ingrese la nota {x+1}: '))
+    suma+=nota
+promedio=suma/notas
+print(f'El promedio es: {promedio}')
+'''
+notas=[1,2,3,4,5,6,7,8,9,10]
+cant=int(input('Ingresa cuantas notas deseas ver: '))
+while cant <= 0 or cant >=11:
+    print('Fuera de rango')
+    cant=int(input('Ingresa cuantas notas deseas ver: '))
+    if cant > 0 or cant < 11:
+        break
+for x in range (cant):
+    print()
+ 
+ 
