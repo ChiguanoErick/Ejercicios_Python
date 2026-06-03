@@ -1,0 +1,38 @@
+# Ejemplo Básico
+'''
+def obtener_mensaje(mensaje):
+    return mensaje
+
+def generar_nombre_completo(nombre, apellido):
+    nombre_completo = (f'{nombre} {apellido}') 
+    return nombre_completo
+mensaje = input('Escriba un mensaje para la interfaz del sistema: ')
+nombre = input('Nombre: ')
+apellido = input('Apellido: ')
+print(f"{obtener_mensaje(mensaje)}, {generar_nombre_completo(nombre, apellido)}")
+'''
+#Genere una calculadora con las 5 operaciones basicas (suma, resta, multiplicacion, division) mediante un procedimiento con parametros para cada operación. El usuario debe ingresar los dos numeros por teclado y seleccionar la operación
+print('=== CALCULADORA ===')
+def sum(n1,n2):
+    print(f'{n1}+{n2} = {n1+n2}')
+    return sum 
+def resta(n1,n2):
+    print(f'{n1}-{n2} = {n1-n2}')
+    return resta
+def mult(n1,n2):
+    print(f'{n1}*{n2} = {n1*n2}')
+    return mult
+def div(n1,n2):
+    print(f'{n1}/{n2} = {n1/n2}')
+    return div
+n1=float(input('Ingrese el primer numero: '))
+n2=float(input('Ingrese el segundo numero: '))
+operacion=input('Ingresa la opreacion que deseas realizar: ')
+if operacion == '+':
+    print(sum(n1,n2))
+elif operacion == '-':
+    print(resta(n1,n2))
+elif operacion == '*':
+    print(mult(n1,n2))
+elif operacion == '/':
+    print(div(n1,n2))
